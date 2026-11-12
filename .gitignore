@@ -1,0 +1,6 @@
+.env
+*.tar
+*.zip
+mysql_data/
+.idea/
+.vscode/
