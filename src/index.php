@@ -16,7 +16,7 @@ $recipes = $pdo->query('SELECT * FROM recipes ORDER BY id')->fetchAll();
     </style>
 </head>
 <body>
-    <h1>🍲 Книга рецептов</h1>
+    <h1 Книга рецептов</h1>
     <p>Всего рецептов: <?= count($recipes) ?></p>
 
     <?php foreach ($recipes as $r): ?>
